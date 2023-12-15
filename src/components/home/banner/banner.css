@@ -1,0 +1,26 @@
+.banner {
+    background-image: url("../../../../public/images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.banner .container {
+    padding-top: 15%;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 60px;
+}
+.banner p {
+    color: #fff;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 800px) {
+    .banner .container {
+        padding-top: 30%;
+    }
+}
