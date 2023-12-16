@@ -1,22 +1,22 @@
 export const feature = [
     {
-        cover:"../../hero/outside_logo.jpeg",
+        cover:"../../house/hero/outside_logo.jpeg",
         name:"Outside"
 
     },
 
     {
-        cover:"../../hero/baseroom_logo.jpeg",
+        cover:"../../house/hero/baseroom_logo.jpeg",
         name:"Basement"
     },
 
     {
-        cover:"../../hero/livingroom_logo.jpeg",
+        cover:"../../house/hero/livingroom_logo.jpeg",
         name:"Living Room"
     },
 
     {
-        cover:"../../hero/diningroom_logo.jpeg",
+        cover:"../../house/hero/diningroom_logo.jpeg",
         name:"Dining Room"
     },
 
