@@ -4,6 +4,7 @@ import "./photo.css"
 import PhotoCard from "./PhotoCard.jsx"
 import {useIconContext} from '../IconContext'
 const Photo = () => {
+    console.log("photo is called")
     const{selectedIcon} = useIconContext();
 
     return (

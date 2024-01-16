@@ -4,6 +4,7 @@ import "./banner.css"
 
 
 const Banner = () => {
+    console.log("Banner is called!")
     return(
         <>
             <section className='banner'>

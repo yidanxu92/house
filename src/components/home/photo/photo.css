@@ -1,9 +1,9 @@
-.recent.box{
+.photo.box{
     position: relative;
     border-radius: 5px;
 }
 
-.recent img{
+.photo img{
     border-radius: 5px;
 }
 

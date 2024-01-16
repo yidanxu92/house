@@ -3,6 +3,7 @@ import Navbar from "../common/navbar/Navbar"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from "../home/Home"
 import Furniture from "../furniture/furniturePage"
+import {LightboxProvider} from '../LightboxContext'
 
 
 const Page = () =>{
@@ -10,12 +11,14 @@ const Page = () =>{
     return(
         <>
             <Router>
-                <Navbar />
-                <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path='/furniture' element={<Furniture />} />
+                <LightboxProvider>
+                    <Navbar />
+                    <Routes>
+                        <Route path='/house' element={<Home />} />
+                        <Route path='/furniture' element={<Furniture />} />
+                    </Routes>
+                </LightboxProvider>
 
-                </Routes>
             </Router>
 
         </>

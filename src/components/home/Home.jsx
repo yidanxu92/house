@@ -5,6 +5,7 @@ import Photo from "./photo/Photo"
 import { IconProvider } from './IconContext'
 
 const Home = () => {
+    console.log("Home is called!")
     return (
         <IconProvider>
             <>

@@ -4,7 +4,7 @@ import Page from "./components/page/Page"
 
 function App(){
     console.log("App is called!")
-    return <Page />
+        return(<Page />);
 }
 
 
