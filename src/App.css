@@ -16,11 +16,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  justify-content: flex-end;
 }
 a {
   text-decoration: none;
   color: #000;
   text-transform: capitalize;
+  padding:10px;  
 }
 ul {
   list-style-type: none;
@@ -121,6 +123,15 @@ img {
   border: 5px solid #27ae601f;
   background: #fff;
 }
+
+.btn6{
+  border-radius:10px;
+  padding:5px 10px;
+  background:#2d3954;
+  color:#fff;
+  border:none;
+}
+
 .back {
   height: 40vh;
   position: relative;
@@ -154,6 +165,20 @@ img {
 .mb {
   margin-bottom: 80px;
 }
+
+.login-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1000; /* 确保模态框在最上层 */
+}
+
+
+
 @media screen and (max-width: 800px) {
   .grid4,
   .grid3,

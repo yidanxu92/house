@@ -9,7 +9,7 @@
 }
 
 .furniture.container{
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 .furniture h1{
@@ -26,7 +26,7 @@ form{
     background-color:#fff;
     border-radius:5px;
     margin-top:50px;
-    padding:0 20px;
+    padding:0 10px;
 }
 
 form input{

@@ -28,150 +28,7 @@ export const feature = [
 
 
 
-]
-export const list = [
-
-    {
-        id:0,
-        furniture:"sofa",
-        cover:"../../house/furniture/sofa/sofa_0.png",
-        price:2760,
-        pet:"Picked by Dawg",
-        name:"Freddie 95'' Leather Sofa",
-        room:"Living Room",
-        link:"https://www.wayfair.com/furniture/pdp/birch-lane-freddie-95-leather-sofa-w005059072.html?piid=997319406"
-
-    },
-
-
-    {
-        id:1,
-        furniture:"sofa",
-        cover:"../../house/furniture/sofa/sofa_1.png",
-        price: 882,
-        pet:"Picked by Dawg",
-        name:"Ophelie 85'' Upholstered Sofa",
-        room:"Living Room",
-        link:"https://www.wayfair.com/furniture/pdp/birch-lane-ophelie-85-rolled-arm-chesterfield-sofa-w005438470.html?piid=2124489611"
-
-    },
-
-    {
-        id:2,
-        furniture:"sofa",
-        cover:"../../house/furniture/sofa/sofa_2.png",
-        price:1369.99,
-        pet:"Picked by Dawg",
-        name:"Navas 94'' Vegan Leather Sofa",
-        room:"Living Room",
-        link:"https://www.wayfair.com/furniture/pdp/trent-austin-design-navas-94-faux-leather-rolled-arm-chesterfield-sofa-w004846498.html"
-
-    },
-
-    {
-        id:3,
-        furniture:"sofa",
-        cover:"../../house/furniture/sofa/sofa_3.png",
-        price:455.99,
-        pet:"Picked by Dawg",
-        name:"Provence 84'' Upholstered Sofa",
-        room:"Living Room",
-        link:"https://www.wayfair.com/furniture/pdp/kelly-clarkson-home-provence-84-rolled-arm-sofa-w004558945.html?piid=1554252669",
-    },
-
-
-
-    {
-        id:4,
-        furniture:"recliner",
-        cover:"../../house/furniture/recliner/recliner_0.png",
-        price:337.17,
-        pet:"Picked by Dawg",
-        name:"Vegan Leather Swivel Recliner with Ottoman",
-        room:"Living Room",
-        link:"https://www.wayfair.com/furniture/pdp/snugway-32-wide-manual-swivel-standard-recliner-with-ottoman-sugw1007.html",
-    },
-
-    {
-        id:5,
-        furniture:"recliner",
-        cover:"../../house/furniture/recliner/recliner_1.png",
-        price:692.94,
-        pet:"Picked by Dawg",
-        name:"Jacque Upholstered Swivel Recliner with Ottoman",
-        room:"Living Room",
-        link:"https://www.wayfair.com/furniture/pdp/snugway-32-wide-manual-swivel-standard-recliner-with-ottoman-sugw1007.html",
-    },
-
-    {
-        id:6,
-        furniture:"bed",
-        cover:"../../house/furniture/bed/bed_0.png",
-        price:800,
-        pet:"Picked by Dawg",
-        name:"Wooden Bed Frame",
-        room:"Bedroom",
-        link:"https://www.silkandsnow.com/en-us/wooden-bed-frame/?size=twin&wickedsource=google&wcid=16983934549&wv=4&utm_source=google&utm_medium=cpc&utm_campaign=%7B%7Bcampaign.name%7D%7D&utm_content=pmax&gad_source=1"
-    },
-
-    {
-        id:7,
-        furniture:"utensil",
-        cover:"../../house/furniture/utensil/utensil_0.png",
-        price:69.95,
-        pet:"Picked by Kitty",
-        name:"Zwilling J.A. Henckels Bellasera Flatware",
-        room:"Dining Room",
-        link:"https://www.surlatable.com/zwilling-ja-henckels-bellasera-23-piece-1810-stainless-steel-flatware-set-silver/PRO-5651294.html",
-    },
-
-    {
-        id:8,
-        furniture:"utensil",
-        cover:"../../house/furniture/utensil/utensil_1.png",
-        price:79.95,
-        pet:"Picked by Kitty",
-        name:"Yamazaki TW-00 Gone Fishin' 5-Piece Placesetting",
-        room:"Dining Room",
-        link:"https://www.amazon.com/gp/product/B0000B2D7C/ref=ewc_pr_img_1?smid=A3QSUEXA0RTOI7&psc=1",
-    },
-
-    {
-        id:9,
-        furniture:"utensil",
-        cover:"../../house/furniture/utensil/utensil_2.png",
-        price:69.95,
-        pet:"Picked by Dawg",
-        name:"Messermeister Avanta 5” Fine Edge Steak Knife Set",
-        room:"Dining Room",
-        link:"https://www.messermeister.com/products/avanta-pakkawood-4-piece-steak-knife-set?variant=39572755054785&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_term=&utm_campaign=pmax&utm_source=google&utm_medium=cpc&hsa_acc=5993158376&hsa_cam=18316395755&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiA7OqrBhD9ARIsAK3UXh1lU6Trh8Ajw_bI-NWJOhV9GKTjRIUABKsrN9YY14gIxncDzDpNWQIaAkbBEALw_wcB"
-    },
-
-    {
-        id:10,
-        furniture:"sofa",
-        cover:"../../house/furniture/sofa/sofa_4.png",
-        price:849.99,
-        pet:"Picked by Dawg",
-        name:"Amyjo 83.5'' Vegan Leather Reclining Sofa",
-        room:"Living Room",
-        link:"https://www.wayfair.com/furniture/pdp/lark-manor-amyjo-835-pillow-top-arm-reclining-sofa-w003188182.html"
-
-    },
-
-    {
-        id: 10,
-        furniture: "sofa",
-        cover: "../../house/furniture/sofa/sofa_5.png",
-        price: 799.99,
-        pet: "Picked by Dawg",
-        name: "Boxberg Bark Faux Leather Reclining Sofa",
-        room: "Living Room",
-        link: "https://www.biglots.com/product/boxberg-bark-faux-leather-reclining-sofa/p810519664?zcp=pd_pla_go_G_Shop_PLA_Indoor_Furniture_Div-9_est6446&gad_source=1&gclsrc=aw.ds",
-    },
-
-
-]
+]  
 
 export const nav = [
     {
@@ -186,6 +43,7 @@ export const nav = [
 
 
 ]
+
 
 
 export const interior = [
@@ -489,3 +347,4 @@ export const interior = [
 
 
 ]
+  

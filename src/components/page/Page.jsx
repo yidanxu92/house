@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from "../home/Home"
 import Furniture from "../furniture/furniturePage"
 import {LightboxProvider} from '../LightboxContext'
+import { UserSelectionProvider } from "../UserSelectionContext"
 
 
 const Page = () =>{
@@ -11,6 +12,7 @@ const Page = () =>{
     return(
         <>
             <Router>
+                <UserSelectionProvider>
                 <LightboxProvider>
                     <Navbar />
                     <Routes>
@@ -18,6 +20,7 @@ const Page = () =>{
                         <Route path='/furniture' element={<Furniture />} />
                     </Routes>
                 </LightboxProvider>
+                </UserSelectionProvider>    
 
             </Router>
 
